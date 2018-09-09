@@ -24,7 +24,6 @@ ENV PATH /opt/conda/bin:$PATH
 # update conda source
 RUN conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
 RUN conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
-RUN conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
 
 # 设置搜索时显示通道地址
 RUN conda config --set show_channel_urls yes
